@@ -15,7 +15,7 @@ def intro():
     print()
 
 def gallons_to_liters(gallons):
-   liters = gallons * 3.78541
+   l = gallons * 3.78541
    print("That converts to", liters,"liters")
    print()
    response= str(input("Continue to another conversion? Yes or No "))
@@ -26,6 +26,6 @@ def gallons_to_liters(gallons):
       print()
       main()
    else:
-      print(response)
+      print(r)
 main()
    
